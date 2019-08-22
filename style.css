@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spectral SC', serif;
+}
+
+/*landing page*/
+.landing-page {
+    background-color: #2c3e50;
+    height: 100vh;
+    transform: skew(0deg, -5deg) translateY(-60px);
+}
+
+.landing-page-text {
+    text-align: center;
+    transform: skew(0deg, 5deg);
+    padding: 25px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+}
+
+.landing-page-text a {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 12px;
+    border: 1px solid white;
+    font-weight: 600;
+}
+
+.landing-page-text a:hover {
+    color: #d91e18;
+    border: #d91e18 1.5px solid;
+    padding: 8px 16;
+    transition: 0.7s ease-in-out;
+}
+
+header {
+    transform: skew(0deg, 5deg);
+    padding: 75px 0px;
+}
+
+header .menu i {
+    color: white;
+    float: left;
+    margin-left: 16px;
+    /* padding: 8px;
+    background: #000000; */
+}
+
+header .brand {
+    text-align: center;
+    margin-top: -36px;
+    color: white;
+}
+
+/*side menu*/
+
+.side-nav {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width: 0;
+    left: 0;
+    z-index: 1;
+    transition: 1s ease-in-out;
+    background-color: #fff;
+    padding-top: 10px;
+    overflow-x: hidden;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    color: #2c3e50;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.side-nav a:hover {
+    color: #d91e18;
+    font-weight: 700;
+}
+
+.side-nav #button-close {
+    position: absolute;
+    margin-left: 50px;
+    right: 20px;
+    margin-top: -12px;
+    font-size: 24px;
+    top: 0;
+}
+
+.side-nav #home-link {
+    font-weight: 700;
+    color: #d91e18;
+}
