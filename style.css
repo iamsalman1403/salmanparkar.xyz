@@ -280,3 +280,51 @@ footer{
     color: #fff;
     font-size: 1.2em;
 }
+
+
+@media(max-width:768px){
+    .about-section-text{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.services-section-text{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.services-section-text .boxes{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.services-section-text .boxes .box{
+    text-align: left;
+    width: 100%;
+}
+.contact-section-text{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.contact-section-text .boxes{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.contact-section-text .boxes .box{
+    text-align: left;
+    width: 100%;
+}
+.landing-page{
+    height: 100vh;
+}
+.works-section .boxes {
+    flex-direction: column;
+}
+.works-section .boxes .box{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+}
