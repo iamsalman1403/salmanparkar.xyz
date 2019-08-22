@@ -126,3 +126,9 @@ header .brand {
     font-size: 18px;
     color: #000000;
 }
+
+progress{
+    width: 100%;
+    height: 32px;
+    background-color: #fff;
+}
