@@ -400,8 +400,9 @@ footer{
         width:100%;
     }
     .txt p{
-        width:30%;
+        width:40%;
     border-top: #d91e18 6px solid;
     border-left:  none;
+        font-size:16px;
 }
 }
