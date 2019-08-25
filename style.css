@@ -393,4 +393,10 @@ footer{
     .work{
         width:100%;
     }
+    .work .boxes{
+        flex-direction: column;
+    }
+    .work .box{
+        width:100%;
+    }
 }
