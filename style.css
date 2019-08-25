@@ -399,4 +399,8 @@ footer{
     .work .box{
         width:100%;
     }
+    .txt p{
+    border-top: #d91e18 6px solid;
+    border-left:  none;
+}
 }
