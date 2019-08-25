@@ -390,4 +390,7 @@ footer{
     margin: auto;
     overflow: hidden;
 }
+    .work{
+        width:100%;
+    }
 }
