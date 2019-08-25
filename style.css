@@ -282,6 +282,69 @@ footer{
 }
 
 
+.work{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+}
+.work .boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.work .box{
+    width: 50%;
+    margin: auto;
+    height: 320px;
+}
+.wrk1{
+    background: url('baseball.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrk2 {
+    background: url('game.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrk4 {
+    background: url('quote.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrk3 {
+    background: url('hotel.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.work .txt{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work .txt a{
+    text-decoration: none;
+    padding: 6px 12px;
+    border: #2c3e50 1.8px solid;
+    color: #2c3e50;
+}
+.txt p{
+    width: 100%;
+    border-left: 4px solid #d91e18;
+    padding: 24px;
+}
+
+
 @media(max-width:768px){
     .about-section-text{
     width: 90%;
