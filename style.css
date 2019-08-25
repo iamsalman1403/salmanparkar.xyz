@@ -400,6 +400,7 @@ footer{
         width:100%;
     }
     .txt p{
+        width:50%;
     border-top: #d91e18 6px solid;
     border-left:  none;
 }
